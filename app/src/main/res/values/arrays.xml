@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_numOfStimuli_entries" >
+        <item>Seven (Test - each stimuli 1x)</item>
+        <item>Twenty Eight (Demo - each stimuli 4x)</item>
+        <item>Thirty Five (Demo - each stimuli 5x)</item>
+        <item>Forty Two (Standard with accommodation - each stimuli 6x)</item>
+        <item>Seventy (Standard for ideal data collection - each stimuli 10x)</item>
+    </string-array>
+    <string-array name="pref_numOfStimuli_values" >
+        <item>7</item>
+        <item>28</item>
+        <item>35</item>
+        <item>42</item>
+        <item>70</item>
+    </string-array>
+    <string-array name="pref_timeBetweenStimuli_entries" >
+        <item>One to Three</item>
+        <item>Two to Four</item>
+        <item>Three to Five</item>
+        <item>Four to Six</item>
+        <item>Five to Seven</item>
+    </string-array>
+    <!-- values in milliseconds -->
+    <string-array name="pref_timeBetweenStimuli_values" >
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="user_gender" >
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

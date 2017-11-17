@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@color/background_material_light"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/listItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="[ID: ] Last Name, First Name"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:focusable="false"
+        android:textColor="#ff000000"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/listItemViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:text="View"
+        android:visibility="invisible" />
+
+</RelativeLayout>

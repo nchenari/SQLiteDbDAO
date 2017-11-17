@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".SubjectInfoActivity">
+
+    <!-- Start, should always be visible in action bar -->
+    <item android:id="@+id/action_discard" android:title="@string/action_discard"
+        android:icon="@drawable/ic_action_discard" app:showAsAction="always"/>
+</menu>
